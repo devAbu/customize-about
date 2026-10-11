@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  color: #fff;
+}
+.section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+#section-intro {
+  background: #1e3a5f;
+}
+#section-about {
+  background: #2c5282;
+}
+#section-contact {
+  background: #3b6aa5;
+}

@@ -1,0 +1,26 @@
+{
+  "name": "customize-about",
+  "version": "1.0.0",
+  "description": "Customize app - About",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "lessc assets/css/style.less assets/css/style.css",
+    "watch": "npx -y chokidar-cli \"assets/css/**/*.less\" -c \"npm run build\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devAbu/customize-about.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/devAbu/customize-about/issues"
+  },
+  "homepage": "https://github.com/devAbu/customize-about#readme",
+  "devDependencies": {
+    "less": "^4.9.1"
+  }
+}
